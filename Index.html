@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de Autos y Moto-taxis</title>
+    <link rel="stylesheet" type="text/css" href="estilos/style.css">
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+    
+
+</head>
+<body>
+    <style type="text/css">
+        body {
+            background-image: url(Images/fondo.jpg);
+                    }
+    </style>
+       
+   
+    <header>
+        <h1 class="titulo">DRIVING CAR</h1>
+         <body>
+
+
+    <a href="UX.HTML" class="boton">UX</a>
+    
+         
+            
+    </header>
+
+    <div id="map"></div>
+    <header>
+        <h1>Menú</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenido a Driving Car</h2>
+            <p>El objetivo de Driving Car es conectar a usuarios que necesitan un servicio de transporte con conductores de automóviles y mototaxis, proporcionando una forma eficiente y conveniente de solicitar y utilizar estos servicios de transporte..</p>
+        </section>
+        <section class="sc">
+            <div class="slider">
+                <div class="slide">
+             <img src="Images/gps.jpg" alt="post"  >
+        </div>
+
+        <div class="slider">
+
+            <img src="Images/carro1.jpg" alt="post">
+             </div>
+             <div class="slide">
+             <img src="Images/cel2.jpg" alt="post"  >
+        </div>
+             <div class="slide">
+                 <img src="Images/carro2.jpg" alt="post">
+             </div>
+             <div class="slide">
+                 <img src="Images/carro3.jpg" alt="post">
+             </div>
+            <div class="slide">
+                <img src="Images/cel.jpg" alt="post" >
+            </div>
+            
+            <div class="slide">
+             <img src="Images/mt2.jpg" alt="post"  >
+        </div>
+        <div class="slide">
+             <img src="Images/carro4.jpg" alt="post"  >
+        </div>
+         
+     </div>
+     <button class="prev">Anterior</button>
+     <button class="next">Siguiente</button>
+            
+        </section>
+    
+        
+    </main>
+
+    <section>
+        <h2>Reserva tu viaje</h2>
+        <form action="procesar_reserva.php" method="post">
+            <label for="tipo_vehiculo">Tipo de vehículo:</label>
+            <select name="tipo_vehiculo" id="tipo_vehiculo">
+                <option value="auto">Auto</option>
+                <option value="moto">Moto-taxi</option>
+            </select>
+
+            <label for="origen">Origen:</label>
+            <input type="text" name="origen" id="origen" required>
+
+            <label for="destino">Destino:</label>
+            <input type="text" name="destino" id="destino" required>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha" id="fecha" required>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+   
+
+    <script>
+        // Función para inicializar el mapa
+        function initMap() {
+            // Coordenadas del centro (puedes ajustar esto)
+            var center = { lat:21.424078540904542, lng:-104.89838243627088 };
+
+            // Crear el mapa
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: center
+            });
+
+            // Marcadores para origen y destino (puedes ajustar esto)
+            var originMarker = new google.maps.Marker({
+                position: center,
+                map: map,
+                title: 'Origen'
+            });
+
+            var destinationMarker = new google.maps.Marker({
+                position: center,
+                map: map,
+                title: 'Destino'
+            });
+        }
+    </script>
+
+       <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsnUscXmNDAqcCGI2owOddliQ84mSqYWY&callback=initMap">
+    </script>
+    <script type="text/javascript" src="js.js"></script>
+</body>
+<footer>Direccion</footer>
+<p>mexico sur dubai</p>
+
+</html>

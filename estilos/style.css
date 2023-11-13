@@ -1,0 +1,248 @@
+<style type="text/css">
+ 
+        body {
+           
+             background-image: url(fondo.jpg);
+             background-position: center center;
+             background-size: 30%;
+             background-repeat: round;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+       .contendor{
+        width: 100%;
+        margin-right: auto;
+        position: relative;
+
+       }
+     
+ .btn {
+    margin-right: 20px;
+    color: white;
+    cursor: crosshair;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 720px;
+    top: 10px;
+ }
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: revert-layer;
+
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+        h1 {
+            color: #FFFFFF
+        }
+
+        a {
+            color: #F7E90B
+        }
+
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .slider {
+    display: flex;
+    overflow: hidden;
+}
+.sc{
+    background-color: yellow;
+    border: 100px;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 2OPX;
+}
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    width: 100%;
+    height: 550px;
+}
+
+button {
+    margin: 10px;
+}
+
+.prev, .next {
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+       
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            margin-bottom: 16px;
+            padding: 8px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+         body {
+  
+     background-color: #167CE8;
+ }
+
+ header {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 1em 0;
+ }
+
+ h1 {
+
+       color: #F7E90B
+ }
+
+ a {
+
+     color: #F7E90B
+ }
+
+ #map {
+     height: 400px;
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ section {
+     max-width: 800px;
+     margin: 2em auto;
+     padding: 20px;
+     background-color: yellow;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ h2 {
+     color: #333;
+        }
+
+ p {
+     color: #666;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     max-width: 400px;
+     margin: 0 auto;
+ }
+
+ label {
+     margin-bottom: 8px;
+ }
+
+ input, select {
+     margin-bottom: 16px;
+     padding: 8px;
+ }
+
+ button {
+     padding: 10px 20px;
+     background-color: black;
+     color: #fff;
+     cursor: pointer;
+ }
+
+  .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0074d9;
+            color: #fff;
+            text-decoration: none; 
+            border: none;
+            border-radius: 4px;
+            text-align: right;
+             margin-right: 20px;
+    color: white;
+    cursor: crosshair;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 720px;
+    top: 10px;
+
+        }
+.lb {
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+
+}
+.tb {
+    background-color:  ;
+}
+
+}
+.Img_Integ {
+
+    width: 50%;
+    height: 55px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-inline: 40px;
+
+}
+
+
+
+    </style>
